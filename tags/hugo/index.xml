@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Cupper</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on Cupper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>/patterns/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/patterns/intro/</guid>
+      <description>Cross-Site Request Forgery: Lab: https://portswigger.net/web-security/csrf
+Attacker can Forge HTTP Request of your Website &amp;mdash;&amp;gt; Then, Trick User to Click/open (Malicious Script or page) link &amp;mdash;&amp;gt; Do, Unintended Action (Change Email, PWD, Transfer Fund, Gain Full Control over User Account) Allow Attacker Move Same Origin Policy: which prevent Different Website from interfering with each other: ![[cross-site request forgery.svg]] Most IMPORTAINT: CSRF Attack be Possible; 3 Condition Must Meet: Relevant Action: Reason for attack the Victim (Gain Privileged User, Change User PWD or Email) Cookie-based Session Handling: Session Cookie identify user &amp;mdash;-&amp;gt; Any Other Mechanism (Tracking Session or Validate user Request) Won&amp;rsquo;t Work No Unpredictable Request Parameters: All the Parameter Need to Stay the Same Ex: Request: Host: vulnerable-website.</description>
+    </item>
+    
+  </channel>
+</rss>
